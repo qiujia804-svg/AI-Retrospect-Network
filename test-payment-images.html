@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>支付二维码测试</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .qr-code-container {
+            margin: 20px;
+            text-align: center;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>支付二维码测试</h1>
+    <div class="qr-code-container">
+        <h2>微信收款码</h2>
+        <img src="images/wechat-qrcode.png" alt="微信收款码">
+    </div>
+    <div class="qr-code-container">
+        <h2>支付宝收款码</h2>
+        <img src="images/alipay-qrcode.png" alt="支付宝收款码">
+    </div>
+    <p>请使用手机扫描上方二维码测试是否正常显示。</p>
+</body>
+</html>
